@@ -1,0 +1,78 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu.mplabx.project.embedded-framework-for-air-quality-sensor",
+        "version": "1.0.0",
+        "displayName": "Embedded Framework for Air Quality Sensors",
+        "projectName": "embedded-framework-for-air-quality-sensor",
+        "shortDescription": "This project implements an embedded software framework designed to interface with and manage air quality sensors for real-time environmental monitoring.",
+        "ide": [
+            {
+                "name": "MPLAB X",
+                "semverRange": ">=6.25.0"
+            }
+        ],
+        "compiler": [
+            {
+                "name": "XC32",
+                "semverRange": "^4.6.0"
+            },
+            {
+                "name": "XC8",
+                "semverRange": "^3.10.0"
+            }
+        ],
+        "dfp": [
+            {
+                "name": "SAMD21_DFP",
+                "semverRange": "^3.6.144"
+            },
+            {
+                "name": "PIC18F-Q_DFP",
+                "semverRange": "^1.27.449"
+            }
+        ],
+        "configurator": {
+            "name": "MCC",
+            "semverRange": ">=5.6.2"
+        },
+        "device": [
+            {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.contentRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "category": "com.microchip.device",
+                    "name": "PIC18F56Q71",
+                    "versionRange": "*"
+                }
+            },
+            {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.contentRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "category": "com.microchip.device",
+                    "name": "ATSAMD21G17D",
+                    "versionRange": "*"
+                }
+            }
+        ],
+        "author": "Mohit Sathyaseelan Palliyil",
+        "peripherals": ["UART","I2C","SERCOM"],
+        "keywords": ["Air Quality Sensor","ENS161","CCS811","SGP40","SGP30"],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
